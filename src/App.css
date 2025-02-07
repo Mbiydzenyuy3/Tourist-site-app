@@ -1,0 +1,15 @@
+/* banner */
+.banner {
+  max-width: 1280px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #304F47;
+}
+
+.group-banner-contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
