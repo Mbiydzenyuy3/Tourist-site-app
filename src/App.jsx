@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/services" element={<ServicePage />} />
-        <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/contacts" element={<ContactPage />} />
+        <Route path="/package" element={<ServicePage />} />
+        <Route path="/gallery" element={<GalleryPage value={{ Image }} />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -13,10 +13,10 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #fff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #2d3436;
+  --secondary-color: #0984e3;
+  --text-color: #636e72;
+  --section-padding: 4rem 0;
 }
 
 a {
@@ -70,4 +70,28 @@ h1 {
   opacity: 0px;
   background-color: #C7923E;
   color: #fff;
+}
+
+/* Button.module.css */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.section-heading {
+  text-align: left;
+  line-height: 1.4rem;
+  font-weight: 600;
 }
