@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-import "./SectionHeading.css";
+// import "./SectionHeading.css";
 
 export default function SectionHeading({
   title,
   subtitle,
-  alignment = "left"
+  alignment = "left",
 }) {
   return (
     <div className={`section-heading ${alignment}`}>

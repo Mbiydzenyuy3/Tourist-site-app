@@ -1,15 +1,19 @@
-import { Link } from "react-router-dom";
-// import "./Card.css";
+import PropTypes from "prop-types";
 
-export default function Card({ destination }) {
-  <div className="card">
-    <img src={destination.image} alt={destination.title} />
-    <div className="card-content">
-      <h3>{destination.title}</h3>
-      <p>{destination.excerpt}</p>
-      <Link to={`/destinations/${destination.id}`} className="card-link">
-        Learn More
-      </Link>
-    </div>
-  </div>;
+export default function Card({ profile }) {
+  return (
+    <>
+      <div className="card">
+        <img src={profile.image} alt={profile.title} />
+        <div className="card-content">
+          <h3>{profile.title}</h3>
+          <p>{profile.details}</p>
+        </div>
+      </div>
+    </>
+  );
 }
+
+Card.proptype = {
+  profile: PropTypes.string,
+};

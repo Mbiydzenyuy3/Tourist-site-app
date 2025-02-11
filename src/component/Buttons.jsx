@@ -12,7 +12,7 @@ export default function ButtonSignIn(input) {
   );
 }
 
-export const Button = ({ onClick, label, style = "primary" }) => {
+export function Button({ onClick, label, style = "primary" }){
   return (
     <button className={`button ${style}`} onClick={onClick}>
       {label}

@@ -1,13 +1,12 @@
+import { useFormik } from "formik";
+// import "./ContactForm.css";
 
-import { useForm } from "react-hook-form";
-// import "./ContactForm.css"; 
-
-const ContactForm = () => {
+export default function ContactForm() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useFormik();
 
   const onSubmit = (data) => {
     console.log(data);
@@ -43,6 +42,4 @@ const ContactForm = () => {
       <button type="submit">Send</button>
     </form>
   );
-};
-
-export default ContactForm;
+}
