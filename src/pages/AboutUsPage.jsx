@@ -9,7 +9,7 @@ export default function AboutPage() {
     <>
       <Banner />
       <Header />
-      <section className="hero container">
+      <section className="about-hero">
         <div className=" section-heading-wrapper about-us-hero-content">
           <SectionHeading
             title="We are dedicated to

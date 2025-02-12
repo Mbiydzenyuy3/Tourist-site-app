@@ -32,7 +32,7 @@ export default function Footer() {
                 <img src="src/assets/logo.png" alt="logo" />
                 <Media />
               </div>
-              <p className="p-footer">
+              <div className="p-footer">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
                 <div className="footer-item-nav">
@@ -54,7 +54,7 @@ export default function Footer() {
                     <a href="">Contact us</a>
                   </ul>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </div>

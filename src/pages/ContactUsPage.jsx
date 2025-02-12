@@ -3,7 +3,6 @@ import Header from "../component/Header";
 import Footer from "../component/Footer";
 import HeroSection from "../component/HeroSection";
 import SectionHeading from "../component/SectionHeading";
-import ContactForm from "../component/FormValidation";
 
 export default function ContactPage() {
   return (
@@ -30,9 +29,7 @@ export default function ContactPage() {
             your travel experience even better.
           </p>
         </div>
-        <div className="form">
-          <ContactForm />
-        </div>
+        <div className="form"></div>
       </div>
 
       <Footer />
