@@ -3,6 +3,7 @@ import Header from "../component/Header";
 import Footer from "../component/Footer";
 // import HeroSection from "../component/HeroSection";
 import SectionHeading from "../component/SectionHeading";
+import { Button } from "../component/Buttons";
 
 export default function AboutPage() {
   return (
@@ -17,6 +18,41 @@ export default function AboutPage() {
             subtitle="Discover the Land of a Thousand Hills"
             alignment="left"
           />
+        </div>
+        <div className="container">
+          <div className="about-form">
+            <div className="hero-form">
+              <form action="" className="form-inputs" id="form-details">
+                <div className="input-field" id="input-field-id">
+                  <div className="hero-guest-input">
+                    Guest
+                    <select name="guest" id="user-guest" className="guest">
+                      <option value="age-group" default>
+                        2 Adult
+                      </option>
+                      <option value="age-group" default>
+                        Adult
+                      </option>
+                    </select>
+                  </div>
+                  <div className="date">
+                    Date
+                    <select name="calendar" id="calendar">
+                      <option value="calendar">12 - 13 April 2022</option>
+                    </select>
+                  </div>
+                  <div className="packages">
+                    Packages
+                    <select name="all" id="all-option">
+                      <option value="all">Akagera Tour</option>
+                      <option value="all">All</option>
+                    </select>
+                  </div>
+                </div>
+                <Button label="Book Now" style="background-color-green" />
+              </form>
+            </div>
+          </div>
         </div>
         <img
           className="about-us-hero-image"

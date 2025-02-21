@@ -1,3 +1,4 @@
+
 import Media from "./socialIcons";
 export default function Footer() {
   return (
@@ -18,11 +19,17 @@ export default function Footer() {
               </div>
               <div className="footer-subscribe">
                 <h4>Subscribe to our newspaper</h4>
-                <input
-                  type="text"
-                  className="footer-input"
-                  placeholder="Input your email here"
-                />
+                <form action="" className="footer-form">
+                  <input
+                    type="text"
+                    className="footer-input"
+                    placeholder="Input your email here"
+                  />
+                  <button className="message">
+                    <img src="src/assets/message.png" alt="" />
+                  </button>
+                </form>
+               
               </div>
             </div>
           </div>

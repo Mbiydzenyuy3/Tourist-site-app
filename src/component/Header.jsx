@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ButtonSignIn from "./Buttons";
+import { Button } from "./Buttons";
 
 export default function Header() {
   return (
@@ -23,15 +23,15 @@ export default function Header() {
               <li>
                 <Link to="/gallery">Gallery</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blog">Blog</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">Contact us</Link>
               </li>
             </ul>
           </nav>
-          <ButtonSignIn />
+          <Button label="SignIn" />
         </div>
       </div>
     </>

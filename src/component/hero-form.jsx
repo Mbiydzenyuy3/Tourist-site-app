@@ -16,7 +16,7 @@ export default function HeroForm() {
             </div>
             <div className="hero-guest-input">
               Guest
-              <select name="guest" id="user-guest" className="guest">
+              <select name="guest" id="user-guest-item" className="guest">
                 <option value="age-group" default>
                   Adult
                 </option>
@@ -24,13 +24,13 @@ export default function HeroForm() {
             </div>
             <div className="date">
               Date
-              <select name="calendar" id="calendar">
+              <select name="calendar" id="calendar-item">
                 <option value="calendar">12 - 13 April 2022</option>
               </select>
             </div>
             <div className="packages">
               Packages
-              <select name="all" id="all-option">
+              <select name="all" id="all-option-item">
                 <option value="all">All</option>
               </select>
             </div>
