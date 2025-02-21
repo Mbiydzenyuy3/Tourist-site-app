@@ -91,13 +91,13 @@ const ContactForm = () => {
       {({ isSubmitting }) => (
         <Form>
           <FormContainer>
-            <Label>Name:</Label>
+            <Label htmlFor="name">Name:</Label>
             <InputField type="text" id="name" name="name" />
 
-            <Label>Email:</Label>
+            <Label htmlFor="email">Email:</Label>
             <InputField type="email" id="email" name="email" />
 
-            <Label>Message:</Label>
+            <Label htmlFor="message">Message:</Label>
             <TextAreaField as="textarea" id="message" name="message" rows="4" />
 
             <SubmitButton type="submit" disabled={isSubmitting}>
