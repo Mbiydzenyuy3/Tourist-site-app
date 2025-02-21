@@ -1,7 +1,6 @@
 import { Formik, Form, Field } from "formik";
 import styled from "styled-components";
 
-// Styled Components for UI
 const FormContainer = styled.div`
   max-width: 600px;
   margin: 20px auto;
@@ -92,13 +91,13 @@ const ContactForm = () => {
       {({ isSubmitting }) => (
         <Form>
           <FormContainer>
-            <Label htmlFor="name">Name:</Label>
+            <Label>Name:</Label>
             <InputField type="text" id="name" name="name" />
 
-            <Label htmlFor="email">Email:</Label>
+            <Label>Email:</Label>
             <InputField type="email" id="email" name="email" />
 
-            <Label htmlFor="message">Message:</Label>
+            <Label>Message:</Label>
             <TextAreaField as="textarea" id="message" name="message" rows="4" />
 
             <SubmitButton type="submit" disabled={isSubmitting}>
