@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function PackageCard({ src, title }) {
   return (
     <>
@@ -8,3 +10,8 @@ export default function PackageCard({ src, title }) {
     </>
   );
 }
+
+PackageCard.propTypes = {
+  src: PropTypes.object,
+  title: PropTypes.string,
+};

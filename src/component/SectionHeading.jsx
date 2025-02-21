@@ -25,7 +25,13 @@ export function HeadingCard({ title, subtitle, alignment = "center" }) {
   );
 }
 
-SectionHeading.propType = {
+SectionHeading.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  alignment: PropTypes.string,
+};
+
+HeadingCard.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   alignment: PropTypes.string,

@@ -17,7 +17,7 @@ export default function Card({ image, name, details }) {
   );
 }
 
-Card.proptype = {
+Card.propTypes = {
   image: PropTypes.object,
   name: PropTypes.string,
   details: PropTypes.string,

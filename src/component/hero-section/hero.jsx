@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function HeroHeadings({ title, name, image, substitle }) {
   return (
     <>
@@ -12,3 +14,10 @@ export default function HeroHeadings({ title, name, image, substitle }) {
     </>
   );
 }
+
+HeroHeadings.propTypes = {
+  title: PropTypes.string,
+  name: PropTypes.string,
+  image: PropTypes.object,
+  substitle: PropTypes.string,
+};

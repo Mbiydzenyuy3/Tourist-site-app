@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function PopularDestinationCard({ src, title, description }) {
   return (
     <>
@@ -11,3 +13,9 @@ export default function PopularDestinationCard({ src, title, description }) {
     </>
   );
 }
+
+PopularDestinationCard.propTypes = {
+  src: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+};

@@ -16,6 +16,8 @@ export default function HomeCard({ src, title, description }) {
   );
 }
 
-HomeCard.proptype = {
+HomeCard.propTypes = {
   src: PropTypes.object,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
