@@ -23,9 +23,9 @@ export default function Header() {
               <li>
                 <Link to="/gallery">Gallery</Link>
               </li>
-              {/* <li>
-                <Link to="/blog">Blog</Link>
-              </li> */}
+              <li>
+                <Link to="/">Blog</Link>
+              </li>
               <li>
                 <Link to="/contact">Contact us</Link>
               </li>

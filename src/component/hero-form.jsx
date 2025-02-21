@@ -30,7 +30,7 @@ export default function HeroForm() {
             </div>
             <div className="packages">
               Packages
-              <select name="all" id="all-option-item">
+              <select name="all" className="all-select" id="all-option-item">
                 <option value="all">All</option>
               </select>
             </div>
