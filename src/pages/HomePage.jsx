@@ -98,17 +98,17 @@ export default function HomePage() {
       />
       <div className="card-section">
         <Card
-          image="src/assets/home-profile-photo.png"
+          image="/assets/home-profile-photo.png"
           title="Emma Waston"
           details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
         />
         <Card
-          image="src/assets/home-profile-photo.png"
+          image="/assets/home-profile-photo.png"
           title="Emma Waston"
           details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
         />
         <Card
-          image="src/assets/home-profile-photo.png"
+          image="/assets/home-profile-photo.png"
           title="Emma Waston"
           details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
         />

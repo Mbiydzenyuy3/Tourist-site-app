@@ -160,21 +160,21 @@ export default function ContactPage() {
           <div className="media">
             <h2 className="media-contact-heading">Social media</h2>
             <div className="media-icons">
-              <img src="src/assets/linkedIn-green.png" alt="linkedin" />
-              <img src="src/assets/twitter-green.png" alt="twitter" />
-              <img src="src/assets/insta-green.png" alt="insta" />
-              <img src="src/assets/facebook-green.png" alt="facebook" />
+              <img src="/assets/linkedIn-green.png" alt="linkedin" />
+              <img src="/assets/twitter-green.png" alt="twitter" />
+              <img src="/assets/insta-green.png" alt="insta" />
+              <img src="/assets/facebook-green.png" alt="facebook" />
             </div>
           </div>
           <div className="media">
             <h2 className="media-contact-heading">Email & phone</h2>
             <div className="media-details">
               <div className="phone-number">
-                <img src="src/assets/phone-green.png" alt="" />
+                <img src="/assets/phone-green.png" alt="" />
                 <p className="telephone">+250 784 688 641</p>
               </div>
               <div className="email-address">
-                <img src="src/assets/mail-green.png" alt="" />
+                <img src="/assets/mail-green.png" alt="" />
                 <p className="contact-email">bbonteemma@gmail.com</p>
               </div>
             </div>

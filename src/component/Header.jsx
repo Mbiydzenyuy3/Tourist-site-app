@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container">
         <div className="header">
           <div className="brand-logo">
-            <img src="src/assets/logo.png" alt="logo" />
+            <img src="/assets/logo.png" alt="logo" />
           </div>
           <nav>
             <ul>

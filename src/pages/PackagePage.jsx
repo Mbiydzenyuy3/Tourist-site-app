@@ -79,11 +79,11 @@ export default function ServicePage() {
         </div>
         <div className="container chevrons">
           <div className="chevron-left">
-            <img src="src/assets/chevron-left1.png" alt="chevron left" />
+            <img src="/assets/chevron-left1.png" alt="chevron left" />
           </div>
           <div className="chevron-right">
             <img
-              src="src/assets/Arrow Chevron Right (1).png"
+              src="/assets/Arrow Chevron Right (1).png"
               alt="chevron right"
             />
           </div>

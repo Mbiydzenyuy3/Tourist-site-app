@@ -1,4 +1,3 @@
-
 import Media from "./socialIcons";
 export default function Footer() {
   return (
@@ -26,17 +25,16 @@ export default function Footer() {
                     placeholder="Input your email here"
                   />
                   <button className="message">
-                    <img src="src/assets/message.png" alt="" />
+                    <img src="/assets/message.png" alt="" />
                   </button>
                 </form>
-               
               </div>
             </div>
           </div>
           <div className="social-links">
             <div className="footer-item">
               <div className="brand">
-                <img src="src/assets/logo.png" alt="logo" />
+                <img src="/assets/logo.png" alt="logo" />
                 <Media />
               </div>
               <div className="p-footer">
@@ -49,6 +47,7 @@ export default function Footer() {
                     <a href="">Destination</a>
                     <a href="">signin</a>
                   </ul>
+
                   <ul>
                     <a href="">About us</a>
                     <a href="">Packages</a>

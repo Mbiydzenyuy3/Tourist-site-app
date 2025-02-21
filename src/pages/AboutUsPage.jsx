@@ -56,7 +56,7 @@ export default function AboutPage() {
         </div>
         <img
           className="about-us-hero-image"
-          src="src/assets/safari-monkey.png"
+          src="/assets/safari-monkey.png"
           alt=""
         />
       </section>
@@ -70,7 +70,7 @@ export default function AboutPage() {
 
         <div className="about-africa-safari">
           <div className="image-wrap">
-            <img src="src/assets/safari-home.png" alt="" />
+            <img src="/assets/safari-home.png" alt="" />
           </div>
           <div className="safari-content">
             <p>
@@ -97,12 +97,12 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="image-wrap">
-            <img src="src/assets/crossing-bridge.png" alt="" />
+            <img src="/assets/crossing-bridge.png" alt="" />
           </div>
         </div>
         <div className="about-africa-safari">
           <div className="image-wrap">
-            <img src="src/assets/hero-image.png" alt="" />
+            <img src="/assets/hero-image.png" alt="" />
           </div>
           <div className="safari-content">
             <p>

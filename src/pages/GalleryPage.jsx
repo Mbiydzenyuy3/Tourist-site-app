@@ -9,36 +9,36 @@ import { GalleryItems } from "../constant";
 
 const Gallery = () => {
   const images = [
-    { src: "src/assets/safari-monkey.png", alt: "Description " },
-    { src: "src/assets/resort-home.png", alt: "Description " },
-    { src: "src/assets/Girraff.png", alt: "Description " },
-    { src: "src/assets/green-fields.png", alt: "Description" },
-    { src: "src/assets/nature-bg.png", alt: "Description" },
-    { src: "src/assets/adventure.png", alt: "Description" },
+    { src: "/assets/safari-monkey.png", alt: "Description " },
+    { src: "/assets/resort-home.png", alt: "Description " },
+    { src: "/assets/Girraff.png", alt: "Description " },
+    { src: "/assets/green-fields.png", alt: "Description" },
+    { src: "/assets/nature-bg.png", alt: "Description" },
+    { src: "/assets/adventure.png", alt: "Description" },
     // { src: "src/assets/village-home.png", alt: "Description" },
     // { src: "src/assets/BoatRide.png", alt: "Description" },
   ];
 
   const images1 = [
-    { src: "src/assets/ManandNature.png", alt: "Description " },
-    { src: "src/assets/mosque.png", alt: "Description " },
-    { src: "src/assets/sunset.png", alt: "Description " },
-    { src: "src/assets/Church.png", alt: "Description " },
-    { src: "src/assets/kid-drinkingmilk.png", alt: "Description " },
-    { src: "src/assets/city-image.png", alt: "Description" },
-    { src: "src/assets/Riding.png", alt: "Description" },
-    { src: "src/assets/water.png", alt: "Description" },
+    { src: "/assets/ManandNature.png", alt: "Description " },
+    { src: "/assets/mosque.png", alt: "Description " },
+    { src: "/assets/sunset.png", alt: "Description " },
+    { src: "/assets/Church.png", alt: "Description " },
+    { src: "/assets/kid-drinkingmilk.png", alt: "Description " },
+    { src: "/assets/city-image.png", alt: "Description" },
+    { src: "/assets/Riding.png", alt: "Description" },
+    { src: "/assets/water.png", alt: "Description" },
   ];
 
   const images2 = [
-    { src: "src/assets/village.png", alt: "Description " },
-    { src: "src/assets/cows.png", alt: "Description " },
-    { src: "src/assets/elephant.png", alt: "Description " },
-    { src: "src/assets/familySkat.png", alt: "Description " },
-    { src: "src/assets/rwanda-home.png", alt: "Description " },
-    { src: "src/assets/Monaments.png", alt: "Description " },
-    { src: "src/assets/farmers.png", alt: "Description " },
-    { src: "src/assets/tribePeople.png", alt: "Description" },
+    { src: "/assets/village.png", alt: "Description " },
+    { src: "/assets/cows.png", alt: "Description " },
+    { src: "/assets/elephant.png", alt: "Description " },
+    { src: "/assets/familySkat.png", alt: "Description " },
+    { src: "/assets/rwanda-home.png", alt: "Description " },
+    { src: "/assets/Monaments.png", alt: "Description " },
+    { src: "/assets/farmers.png", alt: "Description " },
+    { src: "/assets/tribePeople.png", alt: "Description" },
   ];
 
   return (
