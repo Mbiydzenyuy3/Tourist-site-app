@@ -1,9 +1,9 @@
-import Media from "./socialIcons";
+import SocialMedia from "./SocialMedia";
 export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <div className="footer-content container">
+        <div className="footer-content">
           <div className="footer-details">
             <h3>If you have any question, Let us help you!</h3>
             <div className="footer-detail-item">
@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="footer-item">
               <div className="brand">
                 <img src="/assets/logo.png" alt="logo" />
-                <Media />
+                <SocialMedia />
               </div>
               <div className="p-footer">
                 Lorem Ipsum is simply dummy text of the printing and typesetting

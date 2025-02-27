@@ -49,11 +49,17 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   text-align: center;
-  overflow: hidden;
 }
 
 .logo {
   padding: 1.5em;
+}
+
+.site-logo {
+  width: 96px;
+  height: 97px;
+  top: 60px;
+  left: 40px;
 }
 
 h1 {
@@ -225,12 +231,6 @@ section.movie-section {
   aspect-ratio: auto;
 }
 
-/* .gallery-items1,
-.gallery-items2,
-.gallery-items3 {
-  width: 100%;
-} */
-
 /* popular-section */
 .popular-destination-card {
   width: 100%;
@@ -239,6 +239,11 @@ section.movie-section {
   margin-block: 1rem;
   margin-left: 90px;
   justify-content: center;
+  gap: 16px;
+  /* overflow-x: scroll;
+  scrollbar-width: 100%;
+  scroll-behavior: smooth;
+  scrollbar-color: #080; */
 }
 
 .popular-card {
@@ -249,12 +254,15 @@ section.movie-section {
   height: 556px;
   color: #000;
   text-align: left;
-  padding-left: 32px;
+  padding: 16px;
+  overflow: hidden;
 }
 
 .popular-card>img {
   width: 304px;
   height: 304px;
+  border-radius: 50px;
+  border: 5px solid #000;
 }
 
 .popular-item-content {
@@ -413,6 +421,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  width: 100%;
 
 }
 
@@ -439,9 +448,10 @@ footer {
 
 .footer-content {
   display: flex;
-  width: 100%;
   align-items: center;
   gap: 3rem;
+  width: 100%;
+  margin-inline: 32px;
 }
 
 .footer-item {
@@ -453,7 +463,8 @@ footer {
 
 .footer-item-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .footer-item-nav>ul {
@@ -464,7 +475,6 @@ footer {
 }
 
 .brand {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -507,8 +517,16 @@ input {
   padding-inline: 14px;
 }
 
+section {
+  overflow: hidden;
+}
+
 /* Responsive adjustments */
-@media(max-width: 1080px) {}
+@media(min-width: 1080px) {
+  section {
+    width: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .gallery-items1 {

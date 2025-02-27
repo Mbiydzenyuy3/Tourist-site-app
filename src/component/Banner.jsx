@@ -1,4 +1,4 @@
-import Media from "./socialIcons";
+import SocialMedia from "./SocialMedia";
 export default function Banner() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function Banner() {
               <span className="email"> bbonteemma@gmail.com</span>
             </div>
           </div>
-          <Media />
+          <SocialMedia />
         </div>
       </div>
     </>

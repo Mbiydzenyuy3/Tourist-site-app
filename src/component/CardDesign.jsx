@@ -1,16 +1,16 @@
 import PropTypes from "prop-types";
 // import { cardItem } from "../constant";
 
-export default function Card({ image, name, details }) {
+export default function Card({ image, title, description }) {
   return (
     <>
       <div className="card">
         <div className="profile-circle">
-          <img src={image} alt={name} />
+          <img src={image} alt={title} />
         </div>
         <div className="card-content">
-          <h3>{name}</h3>
-          <p>{details}</p>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
       </div>
     </>
@@ -19,6 +19,6 @@ export default function Card({ image, name, details }) {
 
 Card.propTypes = {
   image: PropTypes.object,
-  name: PropTypes.string,
-  details: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };

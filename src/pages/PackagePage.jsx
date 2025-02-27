@@ -2,7 +2,7 @@ import Banner from "../component/Banner";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 import HeroSection from "../component/HeroSection";
-import HeroHeadings from "../component/hero-section/hero";
+import HeroHeadings from "../component/HeroSection/HeroHeadings";
 import { TourPackages } from "../constant";
 import { HeadingCard } from "../component/SectionHeading";
 import HomeCard from "../component/HomeCard/HomeCard";

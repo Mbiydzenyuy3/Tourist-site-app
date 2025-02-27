@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export default function PopularDestinationCard({ src, title, description }) {
+export default function DestinationCard({ src, title, description }) {
   return (
     <>
       <div className="popular-card">
@@ -14,7 +14,7 @@ export default function PopularDestinationCard({ src, title, description }) {
   );
 }
 
-PopularDestinationCard.propTypes = {
+DestinationCard.propTypes = {
   src: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,

@@ -1,4 +1,4 @@
-export default function Media() {
+export default function SocialMedia() {
   return (
     <>
       <div className="media-accounts">

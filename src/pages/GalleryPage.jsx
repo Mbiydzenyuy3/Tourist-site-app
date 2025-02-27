@@ -4,7 +4,7 @@ import Banner from "../component/Banner";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 import { Button } from "../component/Buttons";
-import HeroHeadings from "../component/hero-section/hero";
+import HeroHeadings from "../component/HeroSection/HeroHeadings";
 import { GalleryItems } from "../constant";
 
 const Gallery = () => {

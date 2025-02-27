@@ -4,31 +4,34 @@ import Header from "../component/Header";
 import Footer from "../component/Footer";
 import SectionHeading from "../component/SectionHeading";
 import { HeadingCard } from "../component/SectionHeading";
-import HeroForm from "../component/hero-form";
+import HeroForm from "../component/HeroForm";
 import Card from "../component/CardDesign";
 import HomeCard from "../component/HomeCard/HomeCard";
 import { HomecardItems } from "../constant";
 import { HomeCardItem2 } from "../constant";
 import { HomeCardItem3 } from "../constant";
-import PopularDestinationCard from "../component/PagesCard/popularDestination";
-import PackageCard from "../component/packages/package";
+import DestinationCard from "../component/DestinationCard/DestinationCard";
+import PackageCard from "../component/packages/PackageCard";
+import { CardsItems } from "../constant";
 
 export default function HomePage() {
   return (
     <>
       <Banner />
       <Header />
-      <div className="hero">
-        <HeroSection />
-        <div className="container section-heading-wrapper">
-          <SectionHeading
-            title="Experience the beauty of Rwanda with us"
-            subtitle="Discover the Land of a Thousand Hills"
-            alignment="left"
-          />
-          <HeroForm />
+      <section>
+        <div className="hero">
+          <HeroSection />
+          <div className="container section-heading-wrapper">
+            <SectionHeading
+              title="Experience the beauty of Rwanda with us"
+              subtitle="Discover the Land of a Thousand Hills"
+              alignment="left"
+            />
+            <HeroForm />
+          </div>
         </div>
-      </div>
+      </section>
       <section className="hero-section-form">
         <div className="container">
           <HeadingCard
@@ -62,15 +65,17 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <HeadingCard
-        subtitle="Popular Destinations"
-        title="Select Our Best Popular Destinations"
-        alignment="center"
-      />
+      <section>
+        <HeadingCard
+          subtitle="Popular Destinations"
+          title="Select Our Best Popular Destinations"
+          alignment="center"
+        />
+      </section>
       <section>
         <div className="popular-destination-card">
           {HomeCardItem2.map((items, index) => (
-            <PopularDestinationCard
+            <DestinationCard
               key={index}
               src={items.src}
               title={items.title}
@@ -79,11 +84,13 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-      <HeadingCard
-        subtitle="Why us?"
-        title="Why Travel with Africa wizzy Safari"
-        alignment="center"
-      />
+      <section>
+        <HeadingCard
+          subtitle="Why us?"
+          title="Why Travel with Africa wizzy Safari"
+          alignment="center"
+        />
+      </section>
       <section className="home-contact">
         <div className="container home-card-3-items">
           {HomeCardItem3.map((items, index) => (
@@ -91,28 +98,27 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-      <HeadingCard
-        subtitle="Our Traveller Say"
-        title="What our clients say about us"
-        alignment="center"
-      />
-      <div className="card-section">
-        <Card
-          image="/assets/home-profile-photo.png"
-          title="Emma Waston"
-          details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
+      <section>
+        <HeadingCard
+          subtitle="Our Traveller Say"
+          title="What our clients say about us"
+          alignment="center"
         />
-        <Card
-          image="/assets/home-profile-photo.png"
-          title="Emma Waston"
-          details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
-        />
-        <Card
-          image="/assets/home-profile-photo.png"
-          title="Emma Waston"
-          details="I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization."
-        />
-      </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="card-section">
+            {CardsItems.map((items, index) => {
+              <Card
+                key={index}
+                src={items.image}
+                title={items.title}
+                description={items.description}
+              />;
+            })}
+          </div>
+        </div>
+      </section>
       <div className="container">
         <div className="testimonial-items">
           <div className="orange"></div>
