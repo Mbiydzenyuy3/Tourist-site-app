@@ -235,6 +235,7 @@ select {
 .form-group input {
   border: 1px solid #E1E1E1;
   padding-inline: 16px;
+  color: #000;
 }
 
 .country-code {
@@ -282,6 +283,8 @@ select {
   border-radius: 8px;
   border: 1px solid #E1E1E1;
   width: 85%;
+  background-color: #fff;
+  color: #000;
 }
 
 .button-align-left {
