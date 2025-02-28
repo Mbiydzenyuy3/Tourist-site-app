@@ -82,12 +82,16 @@ nav ul {
 /* hero-section */
 .hero {
   position: relative;
-  min-width: 782px;
+  height: 500px;
 }
 
 .hero-section {
   width: 100%;
   position: relative;
+}
+
+.hero-section img {
+  width: 100%;
 }
 
 .hero-headings {
@@ -124,6 +128,7 @@ nav ul {
   color: #fff;
   background-color: #304F47;
   border-radius: 4px;
+  margin-left: -36px;
 }
 
 #form-details {
@@ -147,8 +152,9 @@ nav ul {
 
 .hero-form {
   position: absolute;
-  bottom: -420px;
-  left: 0;
+  bottom: -140px;
+  left: 32px;
+
 }
 
 .input-field {

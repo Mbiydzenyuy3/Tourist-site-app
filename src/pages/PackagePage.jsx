@@ -13,20 +13,22 @@ export default function ServicePage() {
     <>
       <Banner />
       <Header />
-      <div className="hero">
-        <HeroSection />
-        <div className="container section-heading-wrapper">
-          {TourPackages.map((items, index) => (
-            <HeroHeadings
-              key={index}
-              title={items.title}
-              name={items.name}
-              image={items.image}
-              substitle={items.subtitle}
-            />
-          ))}
+      <section>
+        <div className="hero">
+          <HeroSection />
+          <div className="container section-heading-wrapper">
+            {TourPackages.map((items, index) => (
+              <HeroHeadings
+                key={index}
+                title={items.title}
+                name={items.name}
+                image={items.image}
+                substitle={items.subtitle}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
       <div className="container">
         <HeadingCard
           subtitle="Choose your Package"

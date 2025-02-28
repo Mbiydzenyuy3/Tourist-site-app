@@ -35,20 +35,22 @@ export default function ContactPage() {
     <>
       <Banner />
       <Header />
-      <div className="hero">
-        <HeroSection />
-        <div className="container section-heading-wrapper">
-          {Contact.map((items, index) => (
-            <HeroHeadings
-              key={index}
-              title={items.title}
-              name={items.name}
-              image={items.image}
-              substitle={items.subtitle}
-            />
-          ))}
+      <section>
+        <div className="hero">
+          <HeroSection />
+          <div className="container section-heading-wrapper">
+            {Contact.map((items, index) => (
+              <HeroHeadings
+                key={index}
+                title={items.title}
+                name={items.name}
+                image={items.image}
+                substitle={items.subtitle}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
       <section className="contact-section">
         <div className="container">
           <div className="get-intouch">

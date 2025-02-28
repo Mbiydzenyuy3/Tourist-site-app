@@ -108,14 +108,14 @@ export default function HomePage() {
       <section>
         <div className="container">
           <div className="card-section">
-            {CardsItems.map((items, index) => {
+            {CardsItems.map((item, index) => (
               <Card
                 key={index}
-                src={items.image}
-                title={items.title}
-                description={items.description}
-              />;
-            })}
+                image={item.image}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
           </div>
         </div>
       </section>
